@@ -1,0 +1,50 @@
+/* The following line can be included in a src/App.scss */
+@use '~bootstrap/scss/bootstrap';
+// @use 'react-awesome-button/dist/styles.css';
+
+// Reset margin and padding for body
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #454545;
+    // flex-direction: column;
+    height: 100vh; // Full viewport height
+  }
+  
+  // Ensure html and body take full height
+  html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; // Full viewport height
+  }
+  
+  // Adjust padding for main content (adjust according to navbar height)
+  main {
+    flex: 1;
+    padding-top: 56px; 
+    /* Adjust this to match your navbar's height */
+  padding-bottom: 30px;
+}
+  
+
+// Footer Styling  --start
+
+  // Footer styling to fix it at the bottom
+  .footer {
+    height: 30px; /* Jo bhi height chahiye set karein */
+  padding: 0; 
+  }
+  
+
+// Footer Styling  --end
+
+
+// LginPage Styling  --start
+.logIcon {
+width: 20px;
+height: auto;
+}
+// LginPage Styling  --end
